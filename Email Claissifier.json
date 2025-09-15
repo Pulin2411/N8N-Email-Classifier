@@ -22,11 +22,11 @@
         -1792,
         64
       ],
-      "id": "3ae32282-a8f2-4493-8a71-21bbf6ac1961",
+      "id": "",
       "name": "Gmail Trigger",
       "credentials": {
         "gmailOAuth2": {
-          "id": "2KohxFlMlTUgPLz1",
+          "id": "",
           "name": "Gmail account 2"
         }
       }
@@ -53,7 +53,7 @@
         -1568,
         64
       ],
-      "id": "b323f40e-bc51-4082-8dfd-9152da77801c",
+      "id": "",
       "name": "Information Extractor"
     },
     {
@@ -72,11 +72,11 @@
         -1552,
         256
       ],
-      "id": "ac07c1ef-b1c9-4322-822b-e13da35f6c89",
+      "id": "",
       "name": "OpenAI Chat Model",
       "credentials": {
         "openAiApi": {
-          "id": "Rd4owr6B746AkBbZ",
+          "id": "",
           "name": "OpenAi account"
         }
       }
@@ -92,7 +92,7 @@
           },
           "conditions": [
             {
-              "id": "efaf396c-e36b-4369-b904-4726787fa9b7",
+              "id": "",
               "leftValue": "={{ $json.output.senderName }}",
               "rightValue": "",
               "operator": {
@@ -112,7 +112,7 @@
         -1216,
         64
       ],
-      "id": "d91d2a4b-ddfa-44c0-9739-880d8970bb8d",
+      "id": "",
       "name": "If"
     },
     {
@@ -120,7 +120,7 @@
         "assignments": {
           "assignments": [
             {
-              "id": "9472688f-14a8-415c-864e-1ad245ff0d6d",
+              "id": "",
               "name": "introduction",
               "value": "Hey,",
               "type": "string"
